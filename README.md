@@ -1,1 +1,1 @@
-# carbon-mybatis-generator-plugin
+# mybatis-plus-generator-plugin
