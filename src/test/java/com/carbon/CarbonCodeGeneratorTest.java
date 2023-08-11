@@ -1,15 +1,9 @@
 package com.carbon;
 
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
-import org.apache.maven.plugin.testing.MojoRule;
-import org.apache.maven.plugin.testing.WithoutMojo;
-import org.codehaus.plexus.PlexusTestCase;
 import org.codehaus.plexus.configuration.PlexusConfiguration;
 import org.codehaus.plexus.util.xml.Xpp3Dom;
 import org.codehaus.plexus.util.xml.Xpp3DomBuilder;
-import org.junit.Rule;
-import org.junit.Test;
-import java.io.File;
 import java.io.StringReader;
 
 public class CarbonCodeGeneratorTest extends AbstractMojoTestCase {

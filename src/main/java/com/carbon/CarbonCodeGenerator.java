@@ -28,9 +28,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.introspector.BeanAccess;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.InputStream;
 import java.util.Collections;
 import java.util.Optional;
 
