@@ -61,7 +61,7 @@ public class CarbonCodeGenerator extends AbstractMojo {
 
         MybatisGeneratorConfig.DatabaseGenerator databaseGenerator = mybatisGeneratorConfig.getDatabaseGenerator();
 
-        FastAutoGenerator.create(databaseGenerator.getUrl(), databaseGenerator.getUserName(), databaseGenerator.getUserName())
+        FastAutoGenerator.create(databaseGenerator.getUrl(), databaseGenerator.getUserName(), databaseGenerator.getPassword())
                 .globalConfig(builder -> {
                     MybatisGeneratorConfig.PackageConfig packageConfig = Optional.ofNullable(databaseGenerator.getPackageConfig())
                             .orElse(new MybatisGeneratorConfig.PackageConfig());
